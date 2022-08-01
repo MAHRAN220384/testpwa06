@@ -1,0 +1,47 @@
+.home {
+    background-color: #f4f4f4;
+
+    display: grid;
+    grid-template-rows: 4rem 4rem auto 4rem ;
+    grid-template-areas: 
+    "header"
+    "toolbar"
+    "pcontent"
+    "pfooter";
+    
+}
+
+#pageHeader {
+    grid-area: header;
+    background-color: gray
+}
+
+#pageToolbar {
+    grid-area: toolbar;
+    background-color: yellowgreen;
+}
+
+#pageContent {
+    grid-area: pcontent;
+    background-color: #f4f4f4;
+}
+
+#pageFooter {
+    grid-area: pfooter;
+    background-color: gold;
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+
+
+#logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    left: 1rem;  
+}
